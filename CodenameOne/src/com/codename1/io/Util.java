@@ -699,10 +699,7 @@ public class Util {
                 }
             }
             throw new IOException("Object type not supported: " + type);
-        } catch (InstantiationException ex1) {
-            Log.e(ex1);
-            throw new IOException(ex1.getClass().getName() + ": " + ex1.getMessage());
-        } catch (IllegalAccessException ex1) {
+        } catch (InstantiationException|IllegalAccessError|IllegalAccessException ex1) {
             Log.e(ex1);
             throw new IOException(ex1.getClass().getName() + ": " + ex1.getMessage());
         } 
