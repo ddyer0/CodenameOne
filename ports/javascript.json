@@ -1,48 +1,48 @@
 {
-  "commit": "b7d0a8fd8247bef99888d33e6d3de07d8847fa39",
-  "generated_at": "2026-08-05T05:17:44Z",
+  "commit": "e8a46048d1f445442f8c9236f7a97c99f152c31c",
+  "generated_at": "2026-08-06T05:17:52Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 1446000000
+        "duration_ns": 1429800000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 920500000
+        "duration_ns": 911800000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 13473600000
+        "duration_ns": 14012200001
       },
       "intArithmetic": {
         "checksum": "1313580095284",
-        "duration_ns": 676900000
+        "duration_ns": 676500000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 3725400000
+        "duration_ns": 3713799999
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 556600000
+        "duration_ns": 556700000
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 2770200000
+        "duration_ns": 3086400000
       },
       "quicksort": {
         "checksum": "786886890168670967",
-        "duration_ns": 550100000
+        "duration_ns": 568400000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 1025400000
+        "duration_ns": 1023800000
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 1060000000
+        "duration_ns": 1097000000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "javascript",
-  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/30975947882",
+  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/31072062010",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
