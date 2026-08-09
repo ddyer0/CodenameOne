@@ -1,48 +1,48 @@
 {
-  "commit": "0172bd9f17c08109e399e1a73685dbb85d980c35",
-  "generated_at": "2026-08-08T03:28:31Z",
+  "commit": "83dddc5d16e53200938cf3b9b75e93177a41cf86",
+  "generated_at": "2026-08-09T03:30:08Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 422288000
+        "duration_ns": 258051000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 24995000
+        "duration_ns": 20569000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 86469000
+        "duration_ns": 59553000
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 142737000
+        "duration_ns": 105892000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 78080000
+        "duration_ns": 66350000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 443918000
+        "duration_ns": 288380000
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 619856000
+        "duration_ns": 395281000
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 148510000
+        "duration_ns": 118109000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 189819000
+        "duration_ns": 153052000
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 97887000
+        "duration_ns": 88026000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "mac-native",
-  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/31236312282",
+  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/31291853858",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
