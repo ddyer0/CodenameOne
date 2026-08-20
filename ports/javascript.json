@@ -1,48 +1,48 @@
 {
   "commit": "abcc3f86cb19c971304590ba5d004775f5de7e80",
-  "generated_at": "2026-08-19T03:19:43Z",
+  "generated_at": "2026-08-20T03:12:56Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 1415299999
+        "duration_ns": 1500300000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 937800001
+        "duration_ns": 862000000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 13857000000
+        "duration_ns": 14165000000
       },
       "intArithmetic": {
         "checksum": "1313580095284",
-        "duration_ns": 681700001
+        "duration_ns": 704900000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 3744700000
+        "duration_ns": 3924100000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 556700001
+        "duration_ns": 585500000
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 2879100000
+        "duration_ns": 2698000000
       },
       "quicksort": {
         "checksum": "786886890168670967",
-        "duration_ns": 560900001
+        "duration_ns": 569000000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 1023500000
+        "duration_ns": 1084000000
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 1064400000
+        "duration_ns": 1114300000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "javascript",
-  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/32209344441",
+  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/32325332372",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
