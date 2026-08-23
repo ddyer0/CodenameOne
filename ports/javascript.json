@@ -1,48 +1,48 @@
 {
   "commit": "abcc3f86cb19c971304590ba5d004775f5de7e80",
-  "generated_at": "2026-08-22T03:09:59Z",
+  "generated_at": "2026-08-23T03:21:22Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 1398000000
+        "duration_ns": 1466300000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 903800000
+        "duration_ns": 1045900000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 13290100001
+        "duration_ns": 13543000000
       },
       "intArithmetic": {
         "checksum": "1313580095284",
-        "duration_ns": 671500000
+        "duration_ns": 776500000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 3659500000
+        "duration_ns": 3965000000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 556699999
+        "duration_ns": 500100000
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 2859000000
+        "duration_ns": 2971400000
       },
       "quicksort": {
         "checksum": "786886890168670967",
-        "duration_ns": 588400000
+        "duration_ns": 614300001
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 1021100000
+        "duration_ns": 1151100000
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 1028299999
+        "duration_ns": 1101299999
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "javascript",
-  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/32546683578",
+  "run_url": "https://github.com/ddyer0/CodenameOne/actions/runs/32613647917",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
